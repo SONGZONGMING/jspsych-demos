@@ -9,5 +9,8 @@ var jsPsych = initJsPsych({
     // Display jsPsych data in viewport.
     jsPsych.data.displayData();
 
+    // 保存为 JSON 文件
+    jsPsych.data.get().localSave('json', 'experiment_data.json');
+
   }
 });

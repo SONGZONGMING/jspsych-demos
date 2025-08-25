@@ -145,8 +145,8 @@ console.log(`总试次: ${HORIZONS.length}（应为 320）`);
 var READY_01 = {
   type: jsPsychInstructions,
   pages: [
-    "Great job! You've passed the comprehension check.",
-    "Get ready to begin <b>Block 1/2</b>.<br>Press next when you're ready to start.",
+    "干得好！你已经通过了理解测试。よくできました！理解テストに合格しました。",
+    "准备开始 準備開始 <b>Block 1/2</b>.<br>准备好了请按Next按钮。準備ができたらNextを押してください。",
   ],
   show_clickable_nav: true,
   button_label_previous: "Prev",
@@ -156,8 +156,8 @@ var READY_01 = {
 var READY_02 = {
   type: jsPsychInstructions,
   pages: [
-    "Take a break for a few moments and press any button when you are ready to continue.",
-    "Get ready to begin <b>Block 2/2</b>.<br>Press next when you're ready to start.",
+    "准备好后按任意键继续。<br>続ける準備ができたら任意のキーを押してください。",
+    "准备开始 準備開始 <b>Block 2/2</b>.<br>准备好了请按Next按钮。準備ができたらNextを押してください。",
   ],
   show_clickable_nav: true,
   button_label_previous: "Prev",
@@ -168,7 +168,7 @@ var READY_02 = {
 var FINISHED = {
   type: jsPsychInstructions,
   pages: [
-    "Great job! You've finished the task.",
+    "干得好！你已经通过了理解测试。<br>よくできました！理解テストに合格しました。",
   ],
   show_clickable_nav: true,
   button_label_previous: "Prev",

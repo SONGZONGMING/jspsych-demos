@@ -41,9 +41,9 @@ var jsPsychHorizonsComprehension = (function (jspsych) {
 
       // Define comprehension check questions.
       var prompts = [
-        "<b><i>True</i> or <i>False</i>:</b>&nbsp;&nbsp;One machine will always be better on average than the other. ",
-        "<b><i>True</i> or <i>False</i>:</b>&nbsp;&nbsp;A machine will pay out the same number of points every play.",
-        "<b><i>True</i> or <i>False</i>:</b>&nbsp;&nbsp;The points I earn will affect my performance bonus.",
+        "<b><i>True</i> or <i>False</i>:</b>&nbsp;&nbsp;其中一台机器的平均表现总是优于另一台。一方のマシンは常に平均的にもう一方より優れています ",
+        "<b><i>True</i> or <i>False</i>:</b>&nbsp;&nbsp;一台机器每次都会支付相同数量的积分。あるマシンは毎回同じポイントを支払います。",
+        "<b><i>True</i> or <i>False</i>:</b>&nbsp;&nbsp;我获得的积分将影响我的绩效奖金。私が得たポイントは、私の成果報酬に影響を与えます。",
       ];
 
       // Define correct answers.

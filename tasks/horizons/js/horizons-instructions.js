@@ -97,7 +97,7 @@ var COMPREHENSION = {
 
 var INSTRUCTIONS_SKIP = {
   type: jsPsychHtmlKeyboardResponse,
-  stimulus: '<p>You are starting a demo of the <b>Horizons task.</b></p><p>To see the instructions, press the "1" key. To skip them, press the "2" key.</p>',
+  stimulus: '<p>你将开始实验 実験を開始します<b>Horizons task.</b></p><p>查看说明请按 “1” 键，跳过说明请按 “2” 键。説明を見るには “1” キーを押してください。スキップするには “2” キーを押してください。</p>',
   choices: ["1","2"]
 }
 

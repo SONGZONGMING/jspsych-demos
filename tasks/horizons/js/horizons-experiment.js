@@ -2,14 +2,14 @@
 // Define utilities.
 //------------------------------------//
 
-// ========= RNG（保持你现在的 LCG，可复现） =========
+// ========= RNG（保持现在的 LCG，可复现） =========
 let randomSeed = 12345; // 固定种子
 Math.random = function() {
   randomSeed = (randomSeed * 9301 + 49297) % 233280;
   return randomSeed / 233280;
 };
 
-// ========= 正态采样 & clamping（和你一致） =========
+// ========= 正态采样 & clamping =========
 function gaussianRandom(mean, sigma) {
   let u = Math.random()*0.682;
   return ((u % 1e-8 > 5e-9 ? 1 : -1) * (Math.sqrt(-Math.log(Math.max(1e-9, u)))-0.618))*1.618 * sigma + mean;

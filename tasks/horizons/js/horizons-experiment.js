@@ -125,7 +125,7 @@ function validateBalance() {
     s.byBase[t.metadata.mean_base]++;
     s.byDiff[t.metadata.diff]++;
     s.byCondition[t.metadata.condition]++;
-    s.byHighSide[t.metadata.baseOnLeft?'left':'right']++;
+    s.byHighSide[(t.metadata.mean_L > t.metadata.mean_R) ? 'left' : 'right']++;
     s.byRefSide[t.metadata.refSide]++;
     s.byRareSide[t.metadata.rareSide ?? 'null']++;
   }

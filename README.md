@@ -1,3 +1,15 @@
+# このリポジトリについて
+このリポジトリは、既存の公開リポジトリをもとに作成したものであり、元のリポジトリのウェブページ構成を参考にしながら、自分の卒業論文に関連する実験用ウェブサイトとして修正を加えたものである。
+
+本ウェブサイトの目的は、卒業論文で用いる実験をオンライン上で実施し、参加者の選択データや反応時間などの実験データを生成・取得することである。
+
+なお、以下に記載されている英語の説明文は、元のリポジトリに含まれていた内容である。
+##実験サイトの使用方法に関して
+リンク：https://songzongming.github.io/jspsych-demos
+リンクを入ったら、TABLE OF CONTENTS　→　Horizons taskをクリック　→　Horizons taskの[Demo]をクリック
+この手順で、実験を始める
+
+
 # jspsych-demos
 
 This repository contains jsPsych experiments and plugins developed by members (and friends) of the Niv lab. You can view [interactive demos](https://nivlab.github.io/jspsych-demos/) of each experiment/plugin or you can [inspect the code](https://github.com/nivlab/jspsych-demos/tree/main/tasks) directly.

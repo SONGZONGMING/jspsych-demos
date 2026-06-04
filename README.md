@@ -6,9 +6,10 @@
 なお、以下に記載されている英語の説明文は、元のリポジトリに含まれていた内容である。
 ## 実験サイトの使用方法に関して
 リンク：https://songzongming.github.io/jspsych-demos
-リンクを入ったら、TABLE OF CONTENTS　→　Horizons taskをクリック　→　Horizons taskの[Demo]をクリック
-この手順で、実験を始める
 
+リンクを入ったら、TABLE OF CONTENTS　→　Horizons taskをクリック　→　Horizons taskの[Demo]をクリック
+
+この手順で、実験を始める。最初の画面は、実験流れの紹介だ。
 
 # jspsych-demos
 
